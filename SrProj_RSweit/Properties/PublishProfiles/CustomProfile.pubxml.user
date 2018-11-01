@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+kDDzaaES0KQe0QT9/4oKgAAAAACAAAAAAAQZgAAAAEAACAAAADpXsj6tiFH2k4fOJ/EFcp5YU3QRHTRVqlKz6HjG6mMHgAAAAAOgAAAAAIAACAAAAAYKrLjPp4yWYNLKYPefQPVK+vtuv5zBIAvdMZrWvXD+FAAAABqhufMNiz40qLEClt9/8eXFbiHjvJFrMuo0Bnbn6i/NK7bjKi0qDwzTvrZv7vZ0Qhcp864jRLlhifImPHxh8UKTJlhjsSX06S7EDnDtdVz4kAAAABfNnuSbD55yR0mxo1MjHihyWCi9W1TfTdYjZfMA/Y1TPNjjEbN3LDhynSGu2eVohv5pBtct0c8crz4zTSD7jNb</EncryptedPassword>
+    <_PublishTargetUrl>ftp://18.221.189.159</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>11/15/2017 22:46:57</publishTime>
+    </File>
+    <File Include="Admin.aspx">
+      <publishTime>12/04/2017 15:21:08</publishTime>
+    </File>
+    <File Include="bin/AuthorizeNet.dll">
+      <publishTime>05/18/2017 18:01:46</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/16/2017 14:14:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/21/2017 23:42:00</publishTime>
+    </File>
+    <File Include="bin/SrProj_RSweit.dll">
+      <publishTime>11/15/2017 21:59:36</publishTime>
+    </File>
+    <File Include="bin/SrProj_RSweit.pdb">
+      <publishTime>11/15/2017 21:59:36</publishTime>
+    </File>
+    <File Include="Checkout.aspx">
+      <publishTime>11/13/2017 18:14:00</publishTime>
+    </File>
+    <File Include="Confirmation.aspx">
+      <publishTime>11/15/2017 22:58:08</publishTime>
+    </File>
+    <File Include="construct.aspx">
+      <publishTime>11/13/2017 18:15:47</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/20/2017 13:10:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/20/2017 20:52:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Customer.aspx">
+      <publishTime>11/13/2017 18:18:16</publishTime>
+    </File>
+    <File Include="CustStyle.css">
+      <publishTime>10/31/2017 18:54:03</publishTime>
+    </File>
+    <File Include="DBContext.dbml">
+      <publishTime>11/15/2017 19:31:45</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/12/2017 15:48:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/13/2017 18:25:22</publishTime>
+    </File>
+    <File Include="Master.Master">
+      <publishTime>11/15/2017 21:59:00</publishTime>
+    </File>
+    <File Include="Media/BgDkGray.jpg">
+      <publishTime>09/23/2017 16:57:37</publishTime>
+    </File>
+    <File Include="Media/Bubba_Paw_text.png">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/Cayenne.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="Media/ChocoHabanero.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="Media/Front Ghost border.jpg">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/GHatchChile.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="Media/GhostPep.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="Media/habanero.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="Media/HeatImg/X.png">
+      <publishTime>10/09/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Media/HeatImg/XX.png">
+      <publishTime>10/09/2017 19:36:43</publishTime>
+    </File>
+    <File Include="Media/HeatImg/XXX.png">
+      <publishTime>10/09/2017 19:36:43</publishTime>
+    </File>
+    <File Include="Media/HeatImg/XXXX.png">
+      <publishTime>10/09/2017 19:36:43</publishTime>
+    </File>
+    <File Include="Media/If_you_dont_know_1.jpg">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/If_you_dont_know_1.png">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/image000000_2.jpg">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/Jalapeno.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="Media/MG_1471214141323.jpg">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/ProdImg/Cayenne.png">
+      <publishTime>11/01/2017 17:49:58</publishTime>
+    </File>
+    <File Include="Media/ProdImg/ChocoHabanero.png">
+      <publishTime>11/01/2017 23:26:52</publishTime>
+    </File>
+    <File Include="Media/ProdImg/GHatchChile.png">
+      <publishTime>11/04/2017 13:47:25</publishTime>
+    </File>
+    <File Include="Media/ProdImg/GhostPep.png">
+      <publishTime>11/02/2017 10:55:12</publishTime>
+    </File>
+    <File Include="Media/ProdImg/Habanero.png">
+      <publishTime>10/05/2017 15:44:29</publishTime>
+    </File>
+    <File Include="Media/ProdImg/Jalapeno.png">
+      <publishTime>11/02/2017 13:08:12</publishTime>
+    </File>
+    <File Include="Media/ProdImg/ShirtPawBack.jpg">
+      <publishTime>11/04/2017 13:47:12</publishTime>
+    </File>
+    <File Include="Media/ProdImg/ShirtXBoneBack.jpg">
+      <publishTime>11/04/2017 13:47:12</publishTime>
+    </File>
+    <File Include="Media/ProdImg/SWPicante.png">
+      <publishTime>11/02/2017 13:11:55</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/CayenneTHM.png">
+      <publishTime>11/01/2017 17:49:58</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/ChocoHabaneroTHM.png">
+      <publishTime>11/01/2017 23:26:52</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/GHatchChileTHM.png">
+      <publishTime>11/04/2017 13:47:41</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/GhostPepTHM.png">
+      <publishTime>11/02/2017 10:55:12</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/HabaneroTHM.png">
+      <publishTime>10/05/2017 16:22:53</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/JalapenoTHM.png">
+      <publishTime>11/02/2017 13:08:12</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/ShirtPawBackTHM.png">
+      <publishTime>11/04/2017 13:48:03</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/ShirtXBoneBackTHM.png">
+      <publishTime>11/04/2017 13:48:03</publishTime>
+    </File>
+    <File Include="Media/ProdThmb/SWPicanteTHM.png">
+      <publishTime>11/02/2017 13:11:55</publishTime>
+    </File>
+    <File Include="Media/Rev_J_Logo-text.jpg">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/Rev_J_Logo-text.png">
+      <publishTime>09/19/2017 16:24:59</publishTime>
+    </File>
+    <File Include="Media/ShirtBack.jpg">
+      <publishTime>09/26/2017 12:14:49</publishTime>
+    </File>
+    <File Include="Media/ShirtBack2.jpg">
+      <publishTime>09/26/2017 12:14:49</publishTime>
+    </File>
+    <File Include="Media/ShirtFront.jpg">
+      <publishTime>09/26/2017 12:14:49</publishTime>
+    </File>
+    <File Include="Media/SWPicante.jpg">
+      <publishTime>09/26/2017 12:39:21</publishTime>
+    </File>
+    <File Include="ProductDisplay.aspx">
+      <publishTime>11/13/2017 18:53:15</publishTime>
+    </File>
+    <File Include="Products.aspx">
+      <publishTime>11/06/2017 20:05:08</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>11/13/2017 19:05:38</publishTime>
+    </File>
+    <File Include="Scripts/.DS_Store">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/19/2017 14:38:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/19/2017 14:38:21</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.br">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.br">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.js">
+      <publishTime>09/19/2017 14:38:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.js">
+      <publishTime>09/19/2017 14:38:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.map">
+      <publishTime>09/19/2017 14:38:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.js">
+      <publishTime>09/19/2017 14:38:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.js">
+      <publishTime>09/19/2017 14:38:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.map">
+      <publishTime>09/19/2017 14:38:34</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.br">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.br">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.gz">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.br">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.br">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>11/12/2017 18:36:04</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>11/06/2017 19:50:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/15/2017 21:52:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿.cardimg {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
+    padding: 0%;
+}
+.heatimg {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
+    height: 1000px;
+    width: 1000px;
+    object-fit: contain;
+}
+.cardhead {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
+    margin: 0%;
+}
+.cssPager {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.gridViewHeader{
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+}
